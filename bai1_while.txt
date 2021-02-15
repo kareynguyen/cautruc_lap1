@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let num = parseInt(prompt('Nhập vào số a: '));
+let total = 0;
+while (num != -1){
+    total = total + num;
+    num = parseInt(prompt('Nhập vào số a: '));
+}alert(total)
+</script>
+</body>
+</html>
